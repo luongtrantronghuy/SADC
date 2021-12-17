@@ -1,0 +1,59 @@
+/*
+  Stretch CSS using two or all of the following:
+    Gradients
+    Transtitions
+    Animations
+*/
+div{
+  font-size: 40px;
+  font-family: 'Courier Lucida Console', Courier, monospace;
+  color: black;
+  text-align: center;
+  transition: width 2s, height 2s;
+}
+
+/* credit: https://www.w3schools.com/css/css3_transitions.asp */
+
+.letter{
+  position: relative;
+  text-align: center;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+/* credit: https://www.w3schools.com/css/css3_gradients.asp */
+
+.number{
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  background-image: linear-gradient(to left, rgba(9,9,121,1), rgba(0,212,255,1));
+}
+
+@keyframes slowmove {
+  0% {background-color:red; left:0px; top:0px;}
+  50% {background-color:white; left:-20px; top:0px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* @keyframes panic {
+  from {width: 60px; height: 60px;}
+  to {width: 100px; height: 100px;}
+} */
+
+/* credit: https://www.w3schools.com/css/css3_animations.asp */
+
+div.letter:hover{
+  animation-name: slowmove;
+  animation-duration: 4s;
+}
+
+div.number:hover{
+  /* transform: scale(1.5); */
+  height: 150px;
+  width: 150px;
+}

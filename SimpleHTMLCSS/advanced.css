@@ -1,0 +1,70 @@
+/*
+  Advanced CSS
+*/
+
+.letterdiv{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.letter{
+  color: white;
+  font-family: 'Courier Lucida Console', Courier, monospace;
+  text-align: left;
+  font-size: 60px;
+  background-color: navy;
+  width: 100px;
+  height: 180px;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+/* credit: https://www.w3schools.com/css/css_inline-block.asp */
+
+.numberdiv{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.number{
+  color: yellow;
+  font-family: 'Courier Lucida Console', Courier, monospace;
+  text-align: center;
+  font-size: 40px;
+  background-color: black;
+  width: 60px;
+  height: 50px;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.leftmost{
+  border: 5px solid yellow;
+  border-right: black;
+}
+
+.center{
+  border: 5px solid yellow;
+  border-right: black;
+  border-left: black;
+}
+
+.righttmost{
+  border: 5px solid yellow;
+  border-left: black;
+}
+
+div.letter:hover{
+  background-color: white;
+  color: navy;
+}
+
+div.number:hover{
+  background-color: yellow;
+  color: black;
+}
+
+/* credit: https://www.w3schools.com/cssref/sel_hover.asp */
