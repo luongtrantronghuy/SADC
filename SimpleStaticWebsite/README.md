@@ -1,6 +1,6 @@
 # Welcome to SADC's guide to simple static website development.
 
-The guide to this project can be found [here](http://dev.nodeca.com)
+The guide to this project can be found [here](https://docs.google.com/document/d/1Un36O1y_XNa1PY8fgZzIGIqIsrw5pcLxfQev_DOchKQ/edit?usp=sharing)
 
 ---
 
