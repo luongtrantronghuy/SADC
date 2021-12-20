@@ -1,4 +1,4 @@
-# h1 Welcome to SADC's guide to simple static website development.
+# Welcome to SADC's guide to simple static website development.
 
 The guide to this project can be found [here](http://dev.nodeca.com)
 
@@ -10,7 +10,7 @@ The codes in this project is ***not*** at all perfect, but it's up to you to mak
 
 The result website should look something like this:
 
-![sampleWebsite](https://ibb.co/M1fPM6V)
+![sampleWebsite](https://github.com/luongtrantronghuy/SADC/blob/main/SimpleStaticWebsite/logo.png)
 
 Have fun!
 
