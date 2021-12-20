@@ -10,7 +10,7 @@ The codes in this project is ***not*** at all perfect, but it's up to you to mak
 
 The result website should look something like this:
 
-![sampleWebsite](https://github.com/luongtrantronghuy/SADC/blob/main/SimpleStaticWebsite/result.png | width=400)
+<img src="https://github.com/luongtrantronghuy/SADC/blob/main/SimpleStaticWebsite/result.png" width="400">
 
 Have fun!
 
