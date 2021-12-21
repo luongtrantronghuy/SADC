@@ -45,6 +45,8 @@ ul li a:hover{
     height: auto;
 }
 
+/* secret sauce to center a <div> with CSS */
+
 .parent{
     position: absolute;
     top: 50%;
